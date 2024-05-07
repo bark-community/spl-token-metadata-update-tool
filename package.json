@@ -1,0 +1,28 @@
+{
+  "name": "solana-metadata-update-tool",
+  "version": "1.0.0",
+  "description": "This script allows you to update the metadata extensions for a Solana token in one go.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "ts-node update-metadata.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bark-community/metadata-update-tool.git"
+  },
+  "keywords": [],
+  "author": "BARK Protocol",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "1.91.8",
+    "promisify": "^0.0.3",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.10",
+    "jest": "^29.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
